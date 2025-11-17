@@ -1,0 +1,77 @@
+/* DashboardPage.css */
+
+/* Container aligns with shared .page-container */
+.dashboard-container {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.playlists-list {
+  padding: 0;
+  list-style: decimal inside;
+}
+
+.dashboard-subtitle {
+  text-align: center;
+  font-weight: normal;
+  margin-top: 0.25rem;
+  color: #555;
+}
+
+.dashboard-loading, .playlists-error {
+  margin-top: 20vh;
+  text-align: center;
+}
+
+.dashboard-error { color: red; }
+
+
+.dashboard-content {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.dashboard-content .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+/* Skeleton layout for dashboard cards */
+.dashboard-skeleton-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card ul li {
+  font-size: 1rem;
+  margin: 5px 0;
+}
