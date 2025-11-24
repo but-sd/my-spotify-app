@@ -19,7 +19,7 @@
     "devmoji": "^2.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-router-dom": "^7.9.5"
+    "react-router-dom": "^7.9.6"
   },
   "devDependencies": {
     "@babel/plugin-syntax-jsx": "^7.27.1",
