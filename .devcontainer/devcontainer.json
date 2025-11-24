@@ -1,0 +1,12 @@
+{
+  "name": "Music Discovery App Codespace",
+  "features": [],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "Orta.vscode-jest"
+      ]
+    }
+  }
+}
